@@ -9,5 +9,5 @@
       ]
     }
   },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa && git clone https://github.com/flutter/flutter.git -b stable --depth 1 && echo 'export PATH=\"$PATH:/workspace/flutter/bin\"' >> ~/.bashrc && source ~/.bashrc && flutter doctor"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa && echo 'export PATH=\"$PATH:/workspace/flutter/bin\"' >> ~/.bashrc && source ~/.bashrc && flutter doctor"
 }
